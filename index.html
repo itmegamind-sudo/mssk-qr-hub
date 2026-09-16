@@ -82,20 +82,19 @@
         }
 
         /* Frameless Clean Logo */
-        .brand-logo {
-            width: auto;
-            max-width: 220px;
-            max-height: 150px;
-            height: auto;
-            object-fit: contain;
-            border-radius: 0;
-            border: none;
-            box-shadow: none;
-            background: transparent;
-            display: block;
-            margin: 0 auto;
-			mix-blend-mode: multiply; /* Removes the white box */
-        }
+		.brand-logo {
+			width: 220px !important;
+			height: auto !important;
+			max-width: none !important;
+			max-height: none !important;
+			object-fit: contain;
+			border: none;
+			box-shadow: none;
+			background: transparent;
+			display: block;
+			margin: -25px auto -20px auto; /* Trims excess blank vertical space */
+			mix-blend-mode: multiply;
+		}
 
         h1 {
             font-size: 1.65rem;
